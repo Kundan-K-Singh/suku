@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.23)  6 JUL 2025 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.23)  6 JUL 2025 02:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sourabh_bajaj_resume.tex
-(./sourabh_bajaj_resume.tex
+**Sukanya.tex
+(./Sukanya.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -291,8 +291,8 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box56
 )
-(./sourabh_bajaj_resume.aux)
-\openout1 = `sourabh_bajaj_resume.aux'.
+(./Sukanya.aux)
+\openout1 = `Sukanya.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
@@ -328,9 +328,9 @@ LaTeX Font Info:    ... okay on input line 81.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 81.
- (./sourabh_bajaj_resume.out) (./sourabh_bajaj_resume.out)
+ (./Sukanya.out) (./Sukanya.out)
 \@outlinefile=\write3
-\openout3 = `sourabh_bajaj_resume.out'.
+\openout3 = `Sukanya.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 84.
@@ -345,9 +345,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 84
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 122.
+(Font)              <7> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 122.
+(Font)              <5> on input line 121.
 
 
 
@@ -359,22 +359,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-(./sourabh_bajaj_resume.aux)
+(./Sukanya.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `sourabh_bajaj_resume.out' has not changed.
+Package rerunfilecheck Info: File `Sukanya.out' has not changed.
 (rerunfilecheck)             Checksum: 46D4E08D9BCF3197BED9EF3B941AB47E;453.
  ) 
 Here is how much of TeX's memory you used:
  10885 strings out of 473190
- 172491 string characters out of 5715800
- 610259 words of memory out of 5000000
+ 172244 string characters out of 5715800
+ 611194 words of memory out of 5000000
  34016 multiletter control sequences out of 15000+600000
  564770 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,344b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,331b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -382,10 +382,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on sourabh_bajaj_resume.pdf (1 page, 102704 bytes).
+Output written on Sukanya.pdf (1 page, 102677 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
