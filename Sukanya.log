@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.23)  6 JUL 2025 02:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.23)  6 JUL 2025 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,9 +345,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 84
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 121.
+(Font)              <7> on input line 122.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 121.
+(Font)              <5> on input line 122.
 
 
 
@@ -370,7 +370,7 @@ Package rerunfilecheck Info: File `Sukanya.out' has not changed.
 Here is how much of TeX's memory you used:
  10885 strings out of 473190
  172244 string characters out of 5715800
- 611194 words of memory out of 5000000
+ 611193 words of memory out of 5000000
  34016 multiletter control sequences out of 15000+600000
  564770 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -382,7 +382,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Sukanya.pdf (1 page, 102677 bytes).
+Output written on Sukanya.pdf (1 page, 102534 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
