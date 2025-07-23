@@ -1,6 +1,5 @@
 %-------------------------
 % Resume in LaTeX
-% Author : Adapted for Sukanya
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -10,7 +9,6 @@
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
@@ -42,10 +40,11 @@
 
 \pdfgentounicode=1
 
+% ----------- FIXED SPACING ISSUE -----------
 \newcommand{\resumeItem}[2]{
 	\item\small{
-		\textbf{#1}{ #2. \vspace{-2pt}}
-	}
+		\textbf{#1} #2
+	}\vspace{-2pt}
 }
 
 \newcommand{\resumeHeading}[4]{
@@ -55,11 +54,11 @@
 	\end{tabular*}\vspace{-5pt}
 }
 
+
 \newcommand{\resumeSubheading}[4]{
 	\vspace{-1pt}\item
 	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{#1} & #2 \\
-		\textit{\small#3} & \textit{\small #4} \\
+		\textbf{#1: #3} & \textit{\small #4} \\
 	\end{tabular*}\vspace{-5pt}
 }
 
@@ -69,21 +68,22 @@
 	\end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-2pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+	
 
 \begin{document}
 	
 	%----------HEADING-----------------
 	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-		\textbf{\href{http://sourabhbajaj.com/}{\Large Sukanya}} & Email : \href{mailto:sukanya104146@gmail.com}{sukanya104146@gmail.com}\\
-		\href{https://www.linkedin.com/in/sukanya-7b8118168/}{linkedin.com/in/sukanya-7b8118168} & Mobile : +91-9006536109 \\
+		\textbf{\href{http://sourabhbajaj.com/}{\Large Sukanya}} & Email : \href{mailto:sukanya104146@gmail.com}{sukanya10.inbox@gmail.com}\\
+		\href{https://www.linkedin.com/in/sukanya-7b8118168/}{linkedin.com/in/sukanya-7b8118168} & Mobile : +91-9006 536 109 \\
 	\end{tabular*}
 	
 	%-----------SUMMARY-----------------
@@ -98,68 +98,76 @@
 	{Bachelor of Engineering}{2015 -- 2019}
 	\resumeSubHeadingListEnd
 	
-%-----------TECHNICAL SKILLS-----------------
-\section{Technical Skills}
+	%-----------TECHNICAL SKILLS-----------------
+%	\section{Technical Skills}
+%	\textbf{Languages:} HTML, CSS, JavaScript, TypeScript \\
+%	\textbf{Frameworks:} React.js, React Native, Next.js, Redux, Redux Saga, Tailwind CSS \\
+%	\textbf{Testing:} Jest, Cypress \\
+%	\textbf{Version Control:} Git, GitHub, GitLab, SourceTree \\
+%	\textbf{Tools:} Visual Studio Code, Xcode, JIRA \\
+%	\textbf{Operating Systems:} Windows, macOS, Linux
 
-\textbf{Languages:} HTML, CSS, JavaScript, TypeScript \\
-\textbf{Frameworks:} React.js, React Native, Next.js, Redux, Redux Saga, Tailwind CSS \\
-\textbf{Testing:} Jest, Cypress \\
-\textbf{Version Control:} Git, GitHub, GitLab, SourceTree \\
-\textbf{Tools:} Visual Studio Code, Xcode, JIRA \\
+\section{Technical Skills}
+\textbf{Languages:} HTML, CSS, JavaScript, TypeScript \textbar{}
+\textbf{Frameworks:} React.js, React Native, Next.js, Redux, Redux Saga \textbar{}
+\textbf{Testing:} Jest, Cypress \textbar{}
+\textbf{Version Control:} Git, GitHub, GitLab \textbar{}
+\textbf{Tools:} Visual Studio Code, Xcode, JIRA \textbar{}
 \textbf{Operating Systems:} Windows, macOS, Linux
 	
 	%-----------EXPERIENCE-----------------
 	\section{Experience}
 	\resumeSubHeadingListStart
 	
-\resumeSubheading
-{Accenture}{India}
-{Custom Software Engineering Analyst}{January 2025 -- Present}
-\resumeItemListStart
-\resumeItem{\textbf{Project Details:}}{E-commerce web application for a multinational mass media, telecommunications, and entertainment company.}
-\resumeItem{}{Designed and developed core retail web app features, including the shopping cart, listings, and confirmation pages}
-\resumeItem{}{Built scalable, reusable, and accessible UI components using Next.js, TypeScript, Redux, and Redux Saga, improving development efficiency and consistency}
-\resumeItem{}{Enhanced application performance and responsiveness through code-splitting and efficient state management}
-\resumeItem{}{Implemented robust unit and integration testing with Jest and Cypress, increasing release confidence and reducing regression defects}
-\resumeItemListEnd
+	\resumeSubheading
+	{Accenture}{India}
+	{Custom Software Engineering Analyst}{January 2025 -- Present}
+	\resumeItemListStart
+	\resumeItem{\textbf{Project Details:}}{E-commerce Web Application for a Global Media \& Entertainment Company}
+	\resumeItem{}{Designed and implemented core features for a global mass-media, telecom and entertainment app}
+	\resumeItem{}{Focused on listing, cart functionality, promo code application, and confirmation pages.}
+	\resumeItem{}{Built responsive, reusable UI components using Next.js, TypeScript, Redux, and Redux-Saga}
+	\resumeItem{}{Wrote unit tests in Jest to ensure high code quality, minimize regressions, and support smooth releases}
+	\resumeItemListEnd
 	
-\resumeSubheading
-{Accenture}{India}
-{Custom Software Engineering Analyst}{March 2023 -- December 2024}
-\resumeItemListStart
-\resumeItem{\textbf{Project Details:}}{End-to-End Financial Workflow Web Interface for a global financial investment management and insurance company.}
-\resumeItem{}{Enhanced key financial web app modules (Dashboard, Setup, Contributions, Loans, Review \& Submit, Confirmation) by improving UI, functionality, and accessibility.}
-\resumeItem{}{Developed responsive and accessible UI components aligned with WCAG standards using Next.js, TypeScript, and Redux.}
-\resumeItem{}{Ensured application stability through comprehensive unit and integration testing with Jest and Cypress, and proactively resolved production issues.}
-\resumeItem{}{Collaborated in Agile teams to deliver user-centric features and mentored new team members to support critical releases.}
-\resumeItemListEnd
 	
-\resumeSubheading
-{Accenture}{India}
-{Custom Software Engineering Analyst}{July 2021 -- February 2023}
-\resumeItemListStart
-\resumeItem{\textbf{Project Details:}}{iOS Application for a major US Car Accessories Retailer.}
-\resumeItem{}{Designed and developed key e-commerce features for an iOS React Native app, including product selection, cart, order details, payment, and confirmation flows for vehicle accessories.}
-\resumeItem{}{Improved the mobile web experience for associates by building responsive, user-friendly UI components and developed an iPad-specific version of the application.}
-\resumeItem{}{Implemented efficient and scalable state management using Redux and Redux Saga for consistent cart operations, order processing, and scheduling.}
-\resumeItem{}{Actively contributed to Agile processes, resolved critical bugs to improve app stability, and maintained 85\% unit test coverage with Jest to ensure defect-free releases.}
-\resumeItemListEnd
+	\resumeSubheading
+	{Accenture}{India}
+	{Custom Software Engineering Analyst}{September 2023 -- December 2024}
+	\resumeItemListStart
+	\resumeItem{\textbf{Project Details:}}{End-to-End Financial Workflow Interface for a investment management and insurance company}
+	\resumeItem{}{Developed and improved the overall web experience by enhancing UI, functionality, and accessibility across key modules, including the dashboard, setup page, contributions, negative contributions, loans, review \& submit, and confirmation screens using Next.js, React.js, Typescript and Redux}
+	\resumeItem{}{Refined the user interface to enhance usability, accessibility (WCAG standards), and design consistency}
+	\resumeItem{}{Implemented unit and integration tests using Jest and Cypress to ensure stability and reliability}
+	\resumeItem{}{Collaborated in Agile teams to deliver user-centric features, proactively identifying, debugging, and resolving issues to maintain high application performance and meet sprint goals efficiently}
+	\resumeItemListEnd
 	
-\resumeSubheading
-{Cognizant Technology Solutions}{India}
-{Senior System Engineer}{July 2019 -- July 2021}
-\resumeItemListStart
-\resumeItem{\textbf{Project Details:}}{Retirement Plan Fund Transfer Tracking Web Application for a leading US financial holding company.}
-\resumeItem{}{Developed a fund transfer web application that enabled customers to access and track their transfer requests.}
-\resumeItem{}{Implemented web accessibility features to enhance the experience for users with disabilities.}
-\resumeItem{}{Designed scalable and consistent state management using React.js, Redux, and TypeScript.}
-\resumeItem{}{Achieved 80\% test coverage with Jest to ensure application stability and reliability.}
-\resumeItem{}{Collaborated within an Agile framework to deliver features incrementally and meet project milestones.}
-\resumeItemListEnd
+	\resumeSubheading
+	{Accenture}{India}
+	{Custom Software Engineering Analyst}{July 2021 -- August 2023}
+	\resumeItemListStart
+	\resumeItem{\textbf{Project Details:}}{iOS Application for a major US Car Accessories Retailer}
+	\resumeItem{}{Developed and enhanced a mobile application designed to help associates provide customers with a seamless and engaging experience while selecting car accessories such as tires, batteries, wipers, and more}
+	\resumeItem{}{Designed and implemented key app sections including the accessories list screen, cart, order details, order summary, order confirmation, payment, and other pages using React Native, Typescript, Redux and Redux Saga}
+	\resumeItem{}{Performed debugging and resolved critical bugs to improve app stability and performance following Agile processes}
+	\resumeItem{}{Maintained 85\% unit test coverage with Jest to ensure defect-free releases}
+	\resumeItemListEnd
 	
 	\resumeSubheading
 	{Cognizant Technology Solutions}{India}
-	{Software Engineer Intern}{Jan 2019 -- Mar 2019}
+	{Senior System Engineer}{July 2019 -- July 2021}
+	\resumeItemListStart
+	\resumeItem{\textbf{Project Details:}}{Retirement Plan Transfer Tracking App for a leading US financial company}
+	\resumeItem{}{Developed a fund transfer web application enabling customers to access and track transfer requests for a retirement plan recordkeeping financial holding company}
+	\resumeItem{}{Implemented web accessibility features to enhance usability for users with disabilities}
+	\resumeItem{}{Designed scalable and consistent state management using React.js, Redux, and TypeScript}
+	\resumeItem{}{Achieved 80\% test coverage with Jest, ensuring application stability and reliability}
+	\resumeItem{}{Collaborated with Agile teams to deliver features incrementally and meet project milestones efficiently}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Cognizant Technology Solutions}{India}
+	{Software Engineer Intern}{January 2019 -- March 2019}
 	\resumeItemListStart
 	\resumeItem{}{Developed an e-learning platform for course purchase and upload using React.js and Redux}
 	\resumeItem{}{Created responsive UI components aligned with project specifications}
@@ -167,4 +175,4 @@
 	\resumeItemListEnd
 	
 	\resumeSubHeadingListEnd
-\end{document}
+	\end{document}

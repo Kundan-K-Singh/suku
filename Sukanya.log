@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.23)  18 JUL 2025 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.20)  23 JUL 2025 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -63,18 +63,12 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
-\verbatim@in@stream=\read2
-)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks20
+\enitkv@toks@=\toks18
 \labelindent=\skip54
 \enit@outerparindent=\dimen147
-\enit@toks=\toks21
+\enit@toks=\toks19
 \enit@inbox=\box53
 \enit@count@id=\count270
 \enitdp@description=\count271
@@ -87,7 +81,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks20
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -238,7 +232,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip67
 \f@nch@widthC=\skip68
 \f@nch@widthR=\skip69
-\@temptokenb=\toks23
+\@temptokenb=\toks21
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
@@ -248,7 +242,7 @@ eX and XeLaTeX
 \l@unhyphenated=\language90
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
+\bbl@readstream=\read2
 \bbl@dirlevel=\count285
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
@@ -272,7 +266,7 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen153
 \ar@mcellbox=\box54
 \extrarowheight=\dimen154
-\NC@list=\toks24
+\NC@list=\toks22
 \extratabsurround=\skip70
 \backup@length=\skip71
 \ar@cellbox=\box55
@@ -283,7 +277,7 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@target=\dimen158
 \TX@delta=\dimen159
 \TX@cols=\count286
-\TX@ftn=\toks25
+\TX@ftn=\toks23
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -320,12 +314,12 @@ LaTeX Font Info:    ... okay on input line 81.
 \scratchbox=\box57
 \nofMPsegments=\count289
 \nofMParguments=\count290
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count291
 \MPscratchDim=\dimen161
 \MPnumerator=\count292
 \makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks27
+\everyMPtoPDFconversion=\toks25
 )
 Package hyperref Info: Link coloring OFF on input line 81.
  (./Sukanya.out) (./Sukanya.out)
@@ -344,10 +338,18 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 84
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+11.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 120.
+(Font)              <7> on input line 127.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 120.
+(Font)              <5> on input line 127.
 
 
 
@@ -359,13 +361,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./Sukanya.aux)
+(./Sukanya.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -374,13 +370,13 @@ Package rerunfilecheck Info: File `Sukanya.out' has not changed.
 (rerunfilecheck)             Checksum: 46D4E08D9BCF3197BED9EF3B941AB47E;453.
  ) 
 Here is how much of TeX's memory you used:
- 10887 strings out of 473190
- 172262 string characters out of 5715800
- 606193 words of memory out of 5000000
- 34017 multiletter control sequences out of 15000+600000
+ 10867 strings out of 473190
+ 171782 string characters out of 5715800
+ 611489 words of memory out of 5000000
+ 33997 multiletter control sequences out of 15000+600000
  564770 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,331b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,349b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -388,10 +384,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Sukanya.pdf (2 pages, 101893 bytes).
+Output written on Sukanya.pdf (1 page, 99754 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
